@@ -1,9 +1,5 @@
 .container {
+  height: 100vh;
   background-color: var(--colors-canvas-default);
   color: var(--colors-fg-default);
-
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  gap: 40px;
 }

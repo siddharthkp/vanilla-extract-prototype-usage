@@ -4,7 +4,7 @@
   "private": true,
   "dependencies": {
     "@primer/octicons-react": "^17.11.1",
-    "@siddharthkp/vanilla-extract-prototype": "^1.0.6",
+    "@siddharthkp/vanilla-extract-prototype": "^1.0.7",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
@@ -12,6 +12,7 @@
     "@types/node": "^16.18.12",
     "@types/react": "^18.0.28",
     "@types/react-dom": "^18.0.11",
+    "@vanilla-extract/css": "^1.9.5",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1",
@@ -19,8 +20,8 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "react-app-rewired start",
-    "build": "react-app-rewired build"
+    "start": "craco start",
+    "build": "craco build"
   },
   "eslintConfig": {
     "extends": [
@@ -41,9 +42,7 @@
     ]
   },
   "devDependencies": {
-    "@vanilla-extract/webpack-plugin": "^2.2.0",
-    "customize-cra": "^1.0.0",
-    "mini-css-extract-plugin": "^2.7.2",
-    "react-app-rewired": "^2.2.1"
+    "@craco/craco": "^7.0.0",
+    "@vanilla-extract/webpack-plugin": "^2.2.0"
   }
 }
